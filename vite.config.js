@@ -3,7 +3,7 @@ import react, { reactCompilerPreset } from '@vitejs/plugin-react'
 import babel from '@rolldown/plugin-babel'
 
 export default defineConfig({
-  base: '/24CS076_P1/',   // Your repository name
+  base: '/AWDF-Practical_1/',
   plugins: [
     react(),
     babel({
