@@ -1,18 +1,88 @@
-# React + Vite
+# 🎓 Student Portfolio - AWDF Practical 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio web application built with **React** and **Vite** as part of the **Advanced Web Development Framework (AWDF)** practical curriculum.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [https://isrujalpatel.github.io/AWDF-Practical_1/](https://isrujalpatel.github.io/AWDF-Practical_1/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- 👤 **Header Component:** Customized branding and theme accents for Srujal Patel.
+- 📖 **About Me Section:** Student details and academic background.
+- 💡 **Skills Showcase:** Interactive skills matrix featuring HTML, CSS, JavaScript, C, and C++.
+- 📬 **Footer:** Direct contact information (`24cs076@charusat.edu.in`).
+- 📱 **Responsive Design:** Fully mobile-friendly grid layout and smooth modern UI styling.
+- 🚀 **Automated CI/CD:** Continuous Deployment using GitHub Actions to GitHub Pages.
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend Library:** [React 19](https://react.dev/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** CSS3 (Flexbox & CSS Grid)
+- **Deployment:** GitHub Pages via GitHub Actions
+
+---
+
+## 🚀 Local Development Setup
+
+Follow these steps to run the project locally on your machine:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/isrujalpatel/AWDF-Practical_1.git
+cd AWDF-Practical_1
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Start the development server
+```bash
+npm run dev
+```
+Open your browser and navigate to `http://localhost:5173`.
+
+### 4. Build for production
+```bash
+npm run build
+```
+The production bundle will be generated in the `dist/` directory.
+
+---
+
+## 📂 Project Structure
+
+```text
+AWDF-Practical_1/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml       # GitHub Actions deployment workflow
+├── src/
+│   ├── assets/              # Static assets & images
+│   ├── components/          # Reusable React components
+│   │   ├── About.jsx        # About section component
+│   │   ├── Footer.jsx       # Footer component
+│   │   ├── Header.jsx       # Header component
+│   │   └── Skills.jsx       # Skills component
+│   ├── App.css              # Main component styles
+│   ├── App.jsx              # Root App component
+│   ├── index.css            # Global CSS styles
+│   └── main.jsx             # React entry point
+├── index.html               # HTML entry file
+├── package.json             # Project metadata and dependencies
+└── vite.config.js           # Vite configuration file
+```
+
+---
+
+## 📄 Author
+
+**Srujal Patel**  
+- ID: `24CS076`  
+- Email: [24cs076@charusat.edu.in](mailto:24cs076@charusat.edu.in)  
+- GitHub: [@isrujalpatel](https://github.com/isrujalpatel)
